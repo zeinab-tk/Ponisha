@@ -1,0 +1,373 @@
+/*General*/
+
+body {
+    font-family: cairo, Mada, Tahoma, Arial;
+	color: #777983;
+	
+}
+
+main {
+    margin: auto;
+    width: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+
+}
+
+.text-bold {
+	font-weight: bold;
+	font-size: 37px;
+}
+ 
+ .text-center {
+	text-align: center;
+	margin-top: 70px;
+ }
+
+a:link {
+	text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+    margin: 0 auto -142px;
+}
+
+
+/* Header */
+
+.img-fluid {
+	margin-right: 85px;
+}
+
+
+.navbar {
+  background-color: #f5f5f5;
+  padding-top: 2px;
+ 
+}
+
+.navbar a {
+  float: right;
+  color: #777983;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+#slash {
+	color: #dddee3;
+	
+}
+
+.dropdown-menu {
+	width: 205px;
+}
+
+.dropdown-item {
+	font-size:15px;
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.login {
+	float: left;
+	margin-left: 100px;
+}
+
+ 
+ 
+/*About*/
+
+.about {
+	background-color: #f8f9fa;
+	color: #777983;
+}
+ 
+ .about-p {
+	font-size: 24px;
+	margin-top: 25px;
+	padding-right: 40px;
+	padding-left: 40px;
+ }
+
+.about-btn {
+	width: 204px;
+	background-color: #690;
+	color: white;
+	padding: 10px;
+	margin-top: 40px;
+    font-size: 16px;
+	font-weight: bold;
+    line-height: 1.5;
+    border-radius: 3px;
+	border-color: #690;
+}
+
+.center-block {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Why Ponisha*/
+
+.why-row {
+	margin-top: 25px;
+}
+
+
+.why-list {
+	list-style: none;
+}
+
+
+.why-ponisha {
+	font-size: 16px;
+    padding-top: 45px;
+    font-weight: bold;
+    display: block;
+	color: #690;
+	text-align: center;
+}
+
+
+ .why-p {
+	 margin-top: 15px;
+	 font-size: 18px;
+	 text-align: center;
+ }
+ 
+ 
+
+/*Portfolios*/
+
+.portfolios {
+    width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.portfolios-header {
+	padding: 45px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.portfolios-btn {
+	width: 204px;
+	background-color: white;
+	color: #690;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+    font-size: 16px;
+	font-weight: bold;
+    line-height: 1.5;
+    border-radius: 3px;
+	border-color: #690;
+}
+
+
+
+/*Events*/
+
+.events {
+	background-color: #f8f9fa;
+	padding-right: 75px;
+	padding-left: 75px;
+	
+}
+
+.freeland {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 50px;
+	
+}
+
+.aparat-frame{
+	height: 350px;
+}
+
+.more-info {
+	float: left;
+	padding-top: 50px;
+	padding-left: 75px;
+	padding-bottom: 40px;
+	color: #690;
+	font-size: 18px;
+}
+
+
+
+/*Paypal*/
+
+.paypal {
+	padding: 50px;
+	
+}
+
+.paypal-header {
+	text-align: center;
+	font-size: 24px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.brand-paypal {
+	height: 200px;
+	width: 450px;
+	padding: 50px;
+}
+
+.brand-mastercard {
+	padding: 50px;
+}
+
+.brand-visa {
+	height: 180px;
+	width: 360px;
+	padding: 50px;
+}
+
+
+
+/* Start A Project*/
+
+.box {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.first-box {
+	background-color: #edffca;
+	padding-top: 20px;
+	margin-top: 20px;
+	width: 450px;
+	height: 240px;
+
+	
+}
+
+.second-box {
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	margin-top: 20px;
+	width:  450px;
+	height: 240px;
+
+	
+	
+	
+}
+
+.box-text {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.first-box-btn {
+	width: 110px;
+	background-color: #690;
+	color: white;
+	padding: 10px;
+	margin-top: 40px;
+    font-size: 14px;
+	font-weight: bold;
+    line-height: 1.5;
+    border-radius: 3px;
+	border-color: #690;
+
+}
+
+.second-box-btn {
+	width: 140px;
+	background-color: #690;
+	color: white;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+    font-size: 14px;
+	font-weight: bold;
+    line-height: 1.5;
+    border-radius: 3px;
+	border-color: #690;
+
+}
+
+
+
+/*Footer*/
+
+.footer, .push {
+    height: 100px;
+}
+
+.footer1 {
+	background-color: #f8f9fa;
+	margin-top: 25px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.footer-logo {
+	margin-top: 25px;
+	width: 150px;
+	height: 32px;
+	
+}
+
+.footer-ponisha {
+	color: #690;
+	font-size: 14px;
+	
+}
+
+.footer-info {
+	margin-right: 0%;
+}
+
+
+.footer-items {
+	text-align: right;
+	color: #777983;
+	font-size: 15px;
+	display: inline;
+}
+
+
+.copyright {
+	font-size: 13px;
+	text-align: center;
+}
+
+
+
+
+
